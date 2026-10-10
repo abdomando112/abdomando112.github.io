@@ -1,0 +1,9 @@
+# 论文作者表：在这里把你自己的名字加粗（bold: true）。
+# 其他作者如果想加主页链接，就按下面格式加 url；不加 url 的名字会自动显示为普通文本，无需列在这里。
+# 注意：作者名必须与 _publications/ 里 authors 列表中的字符串完全一致。
+
+"Runci Bai":
+  bold: true
+
+"Yongcong Wang":
+  url: https://ycwang31.github.io

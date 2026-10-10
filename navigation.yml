@@ -1,0 +1,8 @@
+pages:
+# 注意：name 必须与页面 front matter 里的 navbar_title 一致，导航栏才能正确高亮。
+- name: Home
+  url: /
+- name: Publications
+  url: /publications
+- name: Showcase
+  url: /showcase
