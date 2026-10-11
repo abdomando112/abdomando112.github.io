@@ -1,39 +1,117 @@
----
-layout: default
-title : Homepage
-navbar_title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MikroTik-V9-Priority-Hybrid-QoS - Smart Bandwidth Control for Your Network</title>
+    <meta name="description" content="Production-tested QoS system for MikroTik RouterOS 6.x managing 200+ hotspot users over Starlink with adaptive bandwidth control. Optimize gaming, streaming, and web browsing automatically.">
+    <meta name="keywords" content="bandwidth-management,gaming,hotspot,isp,mikrotik,networking,pcq,pubg,qos,queue-tree,routeros,starlink,streaming,traffic-shaping,wifi">
+    <meta name="author" content="abdomando112">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="MikroTik-V9-Priority-Hybrid-QoS - Smart Bandwidth Control">
+    <meta property="og:description" content="Production-tested QoS system for MikroTik RouterOS 6.x managing 200+ hotspot users over Starlink with adaptive bandwidth control.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/abdomando112/MikroTik-V9-Priority-Hybrid-QoS">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=MikroTik+V9+QoS">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#1a73e8">
+</head>
+<body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: linear-gradient(135deg, #e8eaed 0%, #f5f7fa 100%); color: #1a1a2e; line-height: 1.6;">
 
-<div class="row">
-    <div class="col-lg-3 col-md-4">
-        {% include widgets/profile_card_mini.html %}
-    </div>
-    <div class="col-lg-9 col-md-8">
+    <div style="max-width: 900px; margin: 0 auto; padding: 20px;">
 
-        {% include widgets/profile_card_bio_only.html %}
+        <!-- Hero Section -->
+        <div style="background: #ffffff; border-radius: 16px; padding: 40px 30px; margin: 30px 0; box-shadow: 0 4px 20px rgba(0,0,0,0.08); text-align: center;">
+            <h1 style="font-size: 2.2em; font-weight: 800; margin: 0 0 15px 0; color: #1a1a2e; letter-spacing: -0.5px;">⚡ MikroTik-V9-Priority-Hybrid-QoS - Smarter Bandwidth for Every User</h1>
+            <p style="font-size: 1.2em; color: #4a4a6a; margin-bottom: 25px;">Adaptive network intelligence that keeps gaming, streaming, and browsing smooth — automatically.</p>
+            <a href="https://github.com/abdomando112/MikroTik-V9-Priority-Hybrid-QoS/releases" style="display: inline-block; background: #1a73e8; color: #ffffff; padding: 16px 40px; border-radius: 50px; font-size: 1.1em; font-weight: 700; text-decoration: none; box-shadow: 0 4px 15px rgba(26,115,232,0.4); transition: transform 0.2s, box-shadow 0.2s; text-transform: uppercase; letter-spacing: 1px;">⬇️ Download Now</a>
+        </div>
 
-        <!-- Debugging widgets -->
-        {% include widgets/debug_repo_name.html %}
-        {% include widgets/debug_url.html %}
+        <!-- What Is This? -->
+        <div style="background: #ffffff; border-radius: 16px; padding: 30px 30px; margin: 20px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+            <h2 style="font-size: 1.8em; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #1a73e8; padding-bottom: 10px; margin-top: 0;">🤔 What Is This?</h2>
+            <p style="font-size: 1.05em; color: #333; margin-bottom: 15px;">This is a ready-to-use <strong>Quality of Service (QoS)</strong> system for MikroTik routers. It's designed for real-world situations — tested with <strong>200+ users on a Starlink connection</strong>. It automatically prioritizes your internet traffic so that gaming, video calls, and streaming work smoothly even when the network is busy.</p>
+            <p style="font-size: 1.05em; color: #333; margin-bottom: 0;">Think of it like a smart traffic cop for your internet. It makes sure your online gaming gets VIP treatment, while downloads and file sharing wait their turn. The best part? It adapts in real-time to your network's current speed.</p>
+        </div>
 
-        {% if site.data.display.homepage.show_experience %}
-            {% include widgets/experience_card.html %}
-        {% endif %}
+        <!-- Key Features -->
+        <div style="background: #ffffff; border-radius: 16px; padding: 30px 30px; margin: 20px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+            <h2 style="font-size: 1.8em; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #1a73e8; padding-bottom: 10px; margin-top: 0;">✨ Key Features</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                <div style="background: #f8f9fe; padding: 20px; border-radius: 12px; border-left: 4px solid #1a73e8;">
+                    <h3 style="font-size: 1.2em; margin: 0 0 8px 0; color: #1a73e8;">🎮 Gaming First</h3>
+                    <p style="margin: 0; color: #444; font-size: 0.95em;">Special priority for PUBG, Fortnite, and competitive games. Lower ping and less lag even during peak hours.</p>
+                </div>
+                <div style="background: #f8f9fe; padding: 20px; border-radius: 12px; border-left: 4px solid #34a853;">
+                    <h3 style="font-size: 1.2em; margin: 0 0 8px 0; color: #34a853;">📺 Smooth Streaming</h3>
+                    <p style="margin: 0; color: #444; font-size: 0.95em;">Netflix, YouTube, and Twitch buffering reduced. Video quality stays high even with many active users.</p>
+                </div>
+                <div style="background: #f8f9fe; padding: 20px; border-radius: 12px; border-left: 4px solid #fbbc04;">
+                    <h3 style="font-size: 1.2em; margin: 0 0 8px 0; color: #fbbc04;">🌐 Smart Traffic Management</h3>
+                    <p style="margin: 0; color: #444; font-size: 0.95em;">Uses PCQ and Queue Tree technology. Balances bandwidth fairly, preventing any single user from slowing everyone down.</p>
+                </div>
+                <div style="background: #f8f9fe; padding: 20px; border-radius: 12px; border-left: 4px solid #ea4335;">
+                    <h3 style="font-size: 1.2em; margin: 0 0 8px 0; color: #ea4335;">🚀 Adaptive Bandwidth</h3>
+                    <p style="margin: 0; color: #444; font-size: 0.95em;">Automatically adjusts to your connection speed — perfect for Starlink, where speeds change based on weather and location.</p>
+                </div>
+                <div style="background: #f8f9fe; padding: 20px; border-radius: 12px; border-left: 4px solid #9c27b0;">
+                    <h3 style="font-size: 1.2em; margin: 0 0 8px 0; color: #9c27b0;">👥 Built for Hotspots</h3>
+                    <p style="margin: 0; color: #444; font-size: 0.95em;">Handles 200+ concurrent WiFi hotspot users reliably. Tested in real production environments.</p>
+                </div>
+                <div style="background: #f8f9fe; padding: 20px; border-radius: 12px; border-left: 4px solid #ff7043;">
+                    <h3 style="font-size: 1.2em; margin: 0 0 8px 0; color: #ff7043;">🛠️ Easy Setup</h3>
+                    <p style="margin: 0; color: #444; font-size: 0.95em;">Pre-configured scripts. Paste into your MikroTik router and it works. No complex networking knowledge needed.</p>
+                </div>
+            </div>
+        </div>
 
-        {% if site.data.display.homepage.show_news %}
-        {% assign count_news = site.news | size %}
-        {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
-        {% endif %}
-        {% endif %}
+        <!-- Who Is This For? -->
+        <div style="background: #ffffff; border-radius: 16px; padding: 30px 30px; margin: 20px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+            <h2 style="font-size: 1.8em; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #1a73e8; padding-bottom: 10px; margin-top: 0;">🎯 Who Is This For?</h2>
+            <ul style="font-size: 1.05em; color: #333; padding-left: 20px; margin: 0;">
+                <li style="margin-bottom: 10px;"><strong>Internet Service Providers (ISPs)</strong> managing multiple customers on one connection.</li>
+                <li style="margin-bottom: 10px;"><strong>Business owners</strong> with WiFi hotspots for employees or customers.</li>
+                <li style="margin-bottom: 10px;"><strong>Tech-savvy home users</strong> who want the best possible gaming experience.</li>
+                <li style="margin-bottom: 10px;"><strong>Network administrators</strong> looking for a proven, tested QoS solution.</li>
+                <li style="margin-bottom: 0px;"><strong>Starlink users</strong> who need to manage variable satellite internet speeds effectively.</li>
+            </ul>
+        </div>
 
-        {% if site.data.display.homepage.show_selected_publications %}
-        {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-        {%
-        include widgets/publication_card.html
-        publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
-        %}
-        {% endif %}
-    </div>
-</div>
+        <!-- How It Works (Simple) -->
+        <div style="background: #ffffff; border-radius: 16px; padding: 30px 30px; margin: 20px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+            <h2 style="font-size: 1.8em; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #1a73e8; padding-bottom: 10px; margin-top: 0;">🛠️ How It Works (Simple Terms)</h2>
+            <ol style="font-size: 1.05em; color: #333; padding-left: 20px; margin: 0;">
+                <li style="margin-bottom: 12px;"><strong>You download it:</strong> Get the setup file from the button above.</li>
+                <li style="margin-bottom: 12px;"><strong>You run the script:</strong> The file contains easy instructions. It creates the necessary configurations on your MikroTik router automatically.</li>
+                <li style="margin-bottom: 12px;"><strong>It starts working:</strong> Your router now has smart QoS rules. Gaming and streaming get priority, downloads get fair bandwidth, and everyone gets a stable connection.</li>
+                <li style="margin-bottom: 0px;"><strong>It self-adjusts:</strong> The system constantly checks your network speed and adapts. You don't need to touch anything after setup.</li>
+            </ol>
+        </div>
+
+        <!-- Download and Install -->
+        <div style="background: #ffffff; border-radius: 16px; padding: 30px 30px; margin: 20px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); text-align: center;">
+            <h2 style="font-size: 1.8em; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #1a73e8; padding-bottom: 10px; margin-top: 0;">📥 Download & Setup</h2>
+            <p style="font-size: 1.1em; color: #333; margin-bottom: 20px;">Get started in three easy steps.</p>
+            <div style="background: #f8f9fe; border-radius: 12px; padding: 20px; max-width: 500px; margin: 0 auto 25px auto; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+                <p style="font-size: 1.1em; font-weight: 600; color: #1a1a2e; margin: 0 0 15px 0;">📥 Step 1: Get the File</p>
+                <a href="https://github.com/abdomando112/MikroTik-V9-Priority-Hybrid-QoS/releases" style="display: inline-block; background: #34a853; color: white; padding: 14px 35px; border-radius: 50px; font-size: 1em; font-weight: 700; text-decoration: none; box-shadow: 0 4px 15px rgba(52,168,83,0.3); margin-bottom: 10px;">Visit this link to download the application</a>
+                <p style="color: #555; font-size: 0.9em; margin: 10px 0 0 0;">Click the "Releases" link at the top right, then pick the latest version.</p>
+            </div>
+            <div style="background: #f8f9fe; border-radius: 12px; padding: 20px; max-width: 500px; margin: 0 auto 25px auto; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+                <p style="font-size: 1.1em; font-weight: 600; color: #1a1a2e; margin: 0 0 15px 0;">📄 Step 2: Open the File</p>
+                <p style="color: #444; margin: 0; font-size: 1em;">The downloaded file is a text script. Double-click it — it opens in a simple text editor (like Notepad). Follow the brief instructions inside. You'll usually open your router's web interface, copy the content, and paste it into the terminal.</p>
+            </div>
+            <div style="background: #f8f9fe; border-radius: 12px; padding: 20px; max-width: 500px; margin: 0 auto; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+                <p style="font-size: 1.1em; font-weight: 600; color: #1a1a2e; margin: 0 0 15px 0;">⚙️ Step 3: Apply It</p>
+                <p style="color: #444; margin: 0; font-size: 1em;">Run the script in your MikroTik router (usually via WinBox or the web interface). Restart the router if prompted. That's it — your QoS is now active.</p>
+            </div>
+        </div>
+
+        <!-- System Requirements -->
+        <div style="background: #ffffff; border-radius: 16px; padding: 30px 30px; margin: 20px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+            <h2 style="font-size: 1.8em; font-weight: 700; color: #1a1a2e; border-bottom: 3px solid #1a73e8; padding-bottom: 10px; margin-top: 0;">💻 What You Need</h2>
+            <ul style="font-size: 1.05em; color: #333; padding-left: 20px; margin: 0;">
+                <li style="margin-bottom: 10px;">A <strong>MikroTik router</strong> running RouterOS version <strong>6.x</strong> (check your router's settings to confirm version).</li>
+                <li style="margin-bottom: 10px;">A <strong>computer</strong> to download the script and access the router (any Windows version works).</li>
+                <li style="margin-bottom: 10px;"><strong>WinBox</strong> (free software from MikroTik) — most users already have this. It's how you connect to your router.</li>
+                <li style="margin-bottom: 10px;">Recommended: <strong>2GB RAM
